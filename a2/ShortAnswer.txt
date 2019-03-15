@@ -1,8 +1,14 @@
 1. Looking at the top errors printed by get_top_misclassified, name two ways you would modify your classifier to improve accuracy (it could be features, tokenization, or something else.)
 
-
-
-
-
-
+A.
+  Two ways to modify classifier are:
+   1.Count/Density:
+      Adding the sentence count, punctuation count, this will increase the broadening of the features of the model.
+   2.Increasing the combinations of the features we have taken:
+   
+   
 2. Implement one of the above methods. How did it affect the results?
+
+A. I have added few more increments for features by increasing the count which will furthur seggregate the features granualarly. 
+    
+    But i could not find great influence on the accuracy. 
